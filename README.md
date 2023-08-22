@@ -2,7 +2,11 @@
 
 ![](docs/demonstration.gif)
 
-A boilerplate for a RP2040 pico project using Pimoroni hardware and FreeRTOS.
+A boilerplate for a RP2040 pico project using Pimoroni hardware and FreeRTOS. This boilerplate is based on the project [pico-boilerplate](https://github.com/pimoroni/pico-boilerplate) done by Pimoroni with a couple of adjustments.
+
+One of these adjustments is the usage of environment variables. This completely breaks the usage of local options, but I don't mind.
+
+To use local versions, the `.cmake`-files need to be adjusted to use a variable instead of a enviornment variable (if you know CMake, it should be easy).
 
 ## Installation SDK & Pimoroni
 
