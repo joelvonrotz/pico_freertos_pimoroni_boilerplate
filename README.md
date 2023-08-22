@@ -6,7 +6,11 @@ A boilerplate for a RP2040 pico project using Pimoroni hardware and FreeRTOS. Th
 
 One of these adjustments is the usage of environment variables. This completely breaks the usage of local options, but I don't mind.
 
-To use local versions, the `.cmake`-files need to be adjusted to use a variable instead of a enviornment variable (if you know CMake, it should be easy).
+To use local versions, the `.cmake`-files need to be adjusted to use a variable instead of a enviornment variable (if you know CMake, it should be easy). -> specifically `pimoroni_pico_import.cmake` & line 22 in the project `CMakeLists.txt` needs to be updated.
+
+![the funny line of importance](docs/image-1.png)
+
+![the other funny line of importance](docs/image.png)
 
 ## Installation SDK & Pimoroni
 
